@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "luckycasino-gametest",
+  "version": "1.0.0",
+  "name": "LuckyCasino GameTest",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-client-gametest": ["de.luckycasino.test.LuckyCasinoClientGameTest"]
+  },
+  "depends": {
+    "luckycasino": "*"
+  }
+}

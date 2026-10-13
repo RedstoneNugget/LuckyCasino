@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "luckycasino",
+  "version": "${version}",
+  "name": "LuckyCasino",
+  "description": "Rein clientseitiges Casino mit virtuellen Chips: Slots, Roulette, Münzwurf, Blackjack, Crash, Rubbellose, Glücksrad, Lootboxen, Erfolge und Statistiken. Keine echten Items, kein Server-Mod nötig, kein Netzwerkzugriff.",
+  "authors": ["redstone_nugget"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/luckycasino",
+    "sources": "https://github.com/RedstoneNugget/LuckyCasino",
+    "issues": "https://github.com/RedstoneNugget/LuckyCasino/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/luckycasino/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.luckycasino.client.LuckyCasinoClient"],
+    "modmenu": ["de.luckycasino.compat.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
